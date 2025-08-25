@@ -26,7 +26,7 @@ const sortedBands = bands.sort((a, b) =>
 );
 
 // Add sorted list to DOM
-const bandList = document.getElementById('band');
+const bandList = document.getElementById('bands'); // fixed id
 sortedBands.forEach(band => {
   const listItem = document.createElement('li');
   listItem.textContent = band;
